@@ -17,7 +17,7 @@
         <p>Hi, I'm a PhD student at Stanford University, advised by Prof. Jure Leskovec and Prof. Percy Liang. </p>
         <p> My research interest is broadly in aligning machine reasoning with human reasoning, especially for rationality, interpretability, and extensibility with new knowledge. Currently, I am excited about understanding the reasoning algorithms learned by LLM and using LLM to automate scientific discovery processes. </p>
         <p> Feel free to email me about research or any advice I can help with! </p>
-        <b>  I will be at ICML 2023! Will present PRODIGY and Lexinvariant LM work at SPIGM workshop. Let me know if you want to chat! </b>
+        <!-- <b>  I will be at ICML 2023! Will present PRODIGY and Lexinvariant LM work at SPIGM workshop. Let me know if you want to chat! </b> -->
         <p> Links: [<a href="mailto:qhwang@cs.stanford.edu">Email</a>] [<a href="files/Qian_Huang.pdf">CV</a>] [<a href="https://scholar.google.com/citations?user=L3hkmG0AAAAJ&hl=en">Google Scholar</a>] </p>
     </div>
     <div class="container">
@@ -30,48 +30,7 @@
   <div height="200pt" width="100%" > <h2>New Preprints</h2>
 
     <ul>
-      <li class="research_item">
-        <div class="container grid-item" style="float:left">
-            <img src="img/prodigy.png" >
-        </div>
-        <b>PRODIGY: Enabling In-context Learning Over Graphs 
-        </b>
-        <br>
-        <b>Qian Huang</b>, Hongyu Ren, Peng Chen, Gregor Kržmanc, Daniel Zeng, Percy Liang, Jure Leskovec
-        <br>
-        [<a href="https://arxiv.org/abs/2305.12600">Paper</a>] [<a href="https://github.com/snap-stanford/prodigy">Code</a>]
-        <br>
-        <b>TL;DR</b>: We enable in-context learning over graphs with a novel in-context task representation PromptGraph and a corresponding pretraining framework PRODIGY. We empirically demonstrate the strong in-context learning performance induced on tasks over citation networks and knowledge graphs, with on average 18% improvement upon contrastive pretraining (with hard-coded adaptation for in-context setup) and 33% over standard finetuning with limited data. 
-      </li>
-      <hr>
-      <li class="research_item">
-        <div class="container grid-item" style="float:left">
-            <img src="img/lexinvariant.png" >
-        </div>
-        <b>Lexinvariant Language Models
-        </b>
-        <br>
-        <b>Qian Huang</b>, Eric Zelikman, Sarah Li Chen, Yuhuai Wu, Gregory Valiant, Percy Liang
-        <br>
-        [<a href="https://arxiv.org/abs/2305.16349">Paper</a>]
-        <br>
-        <b>TL;DR</b>: Investigate lexinvariant language models that do not have fixed token embedding and therefore are invariant to lexical symbols. We show that such a language model still attains surprisingly comparable perplexity to a regular language model given a sufficiently long context context, both theoretically and empirically.`
-        We argue that it essentially learns to perform in-context Baysian deciphering and it can achieve significantly better performance over various synthetic reasoning tasks. 
-      </li>
-      <hr>
-      <li class="research_item">
-        <div class="container grid-item" style="float:left">
-            <img src="img/parsel.png" >
-        </div>
-        <b>Parsel: A Unified Natural Language Framework for Algorithmic Reasoning
-        </b>
-        <br>
-        Eric Zelikman, <b>Qian Huang</b>, Gabriel Poesia, Noah D. Goodman, Nick Haber
-        <br>
-        [<a href="https://arxiv.org/abs/2212.10561">Paper</a>] [<a href="https://github.com/ezelikman/parsel">Code</a>]
-        <br>
-        <b>TL;DR</b>: We introduce Parsel, a framework enabling automatic implementation and validation of complex algorithms with code LLMs, based on hierarchical function descriptions in natural language. Parsel can be used across domains requiring hierarchical reasoning, e.g. code synthesis, theorem proving, and robotic planning. Beyond modeling capabilities, Parsel allows problem-solving with high-level algorithmic designs, benefiting both students and professional programmers.
-      </li>
+      
       <hr>
       <li class="research_item">
         <div class="container grid-item" style="float:left">
@@ -93,6 +52,54 @@
 
   <div height="200pt" width="100%" > <h2>Publications</h2>
   <ul>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/prodigy.png" >
+      </div>
+      <b>PRODIGY: Enabling In-context Learning Over Graphs 
+      </b>
+      <br>
+      <b>Qian Huang</b>, Hongyu Ren, Peng Chen, Gregor Kržmanc, Daniel Zeng, Percy Liang, Jure Leskovec
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2305.12600">Paper</a>] [<a href="https://github.com/snap-stanford/prodigy">Code</a>]
+      <br>
+      <b>TL;DR</b>: We enable in-context learning over graphs with a novel in-context task representation PromptGraph and a corresponding pretraining framework PRODIGY. We empirically demonstrate the strong in-context learning performance induced on tasks over citation networks and knowledge graphs, with on average 18% improvement upon contrastive pretraining (with hard-coded adaptation for in-context setup) and 33% over standard finetuning with limited data. 
+    </li>
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/lexinvariant.png" >
+      </div>
+      <b>Lexinvariant Language Models
+      </b>
+      <br>
+      <b>Qian Huang</b>, Eric Zelikman, Sarah Li Chen, Yuhuai Wu, Gregory Valiant, Percy Liang
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2305.16349">Paper</a>]
+      <br>
+      <b>TL;DR</b>: Investigate lexinvariant language models that do not have fixed token embedding and therefore are invariant to lexical symbols. We show that such a language model still attains surprisingly comparable perplexity to a regular language model given a sufficiently long context context, both theoretically and empirically.`
+      We argue that it essentially learns to perform in-context Baysian deciphering and it can achieve significantly better performance over various synthetic reasoning tasks. 
+    </li>
+    <hr>
+    <li class="research_item">
+      <div class="container grid-item" style="float:left">
+          <img src="img/parsel.png" >
+      </div>
+      <b>Parsel: A Unified Natural Language Framework for Algorithmic Reasoning
+      </b>
+      <br>
+      Eric Zelikman, <b>Qian Huang</b>, Gabriel Poesia, Noah D. Goodman, Nick Haber
+      <br>
+      <b>Spotlight @ NeurIPS 2023</b>
+      <br>
+      [<a href="https://arxiv.org/abs/2212.10561">Paper</a>] [<a href="https://github.com/ezelikman/parsel">Code</a>]
+      <br>
+      <b>TL;DR</b>: We introduce Parsel, a framework enabling automatic implementation and validation of complex algorithms with code LLMs, based on hierarchical function descriptions in natural language. Parsel can be used across domains requiring hierarchical reasoning, e.g. code synthesis, theorem proving, and robotic planning. Beyond modeling capabilities, Parsel allows problem-solving with high-level algorithmic designs, benefiting both students and professional programmers.
+    </li>
   <li class="research_item">
     <div class="container grid-item" style="float:left">
         <img src="img/CSR.png" >
